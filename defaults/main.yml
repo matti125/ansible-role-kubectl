@@ -20,7 +20,7 @@ kubectl_checksum_binary: "sha512:d6829c6c9113d3cfff342a078fb57141e5f4f010737384e
 kubectl_bin_directory: "/usr/local/bin"
 
 # Directory to store the kubeclient archive
-kubectl_tmp_directory: "{{ lookup('env', 'TMPDIR') | default('/tmp',true) }}"
+#kubectl_tmp_directory: "{{ lookup('env', 'TMPDIR') | default('/tmp',true) }}"
 
 # Owner of "kubectl" binary
 kubectl_owner: "root"
